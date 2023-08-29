@@ -7,20 +7,22 @@ module.exports = {
         filename: 'index_bundle.js'
     },
     devServer: {
-        inline: true,
+        //inline: true,
         port: 8001
     },
     module: {
         rules: [
             {
-                test: /\.jsx?$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                loader: 'babel-loader',
-                query: {
-                    presets: ['es2015', 'react']
+                use: {
+                    loader: 'babel-loader'
                 }
             }
         ]
+    },
+    resolve: {
+        extensions: ['.js', '.jsx']
     },
     plugins: [
         new HtmlWebpackPlugin({

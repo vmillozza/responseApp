@@ -18,6 +18,13 @@
     "save": "^2.9.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
-    "webpack-devserver": "^0.0.6"
+    "webpack-devserver": "^0.0.6",
+    "webpack-validator": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack-dev-server": "^4.15.1"
   }
 }
