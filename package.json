@@ -1,0 +1,23 @@
+{
+  "name": "responseapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "response": "^0.1.0",
+    "save": "^2.9.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-devserver": "^0.0.6"
+  }
+}
